@@ -26,3 +26,11 @@
 
 # print_n_to_1(5)
 
+
+a1="abc"
+a2="def"
+a3=a1+a2
+print(a1+a2)
+print(type(a3))
+
+

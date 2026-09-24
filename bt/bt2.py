@@ -5,13 +5,16 @@ def generate_strings(n):
         # Base case: string reached length N
         if len(current) == n:
             result.append(current)
+            #print("result: ", result)
             return
 
         # Choose A
         backtrack(current + "A")
+        #print("current A: ", current)
 
         # Choose B
         backtrack(current + "B")
+        #print("current B: ", current)
 
     backtrack("")
     return result
