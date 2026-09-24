@@ -1,0 +1,22 @@
+# O(n*n*n)
+# arr = [60, 5, 8, 20, 15, 40, 20, 50, 10, 30]
+# sum_subarrays=[]
+# for i in range(len(arr)):
+#     for j in range(i,len(arr)):
+#         print(arr[i:j+1]) # all subarrays possible
+#         print(sum(arr[i:j+1]))
+#         sum_subarrays.append(sum(arr[i:j+1]))
+
+# print(max(sum_subarrays))
+
+
+arr = [60, 5, 8, 20, 15, 40, 20, 50, 10, 30]
+sum_subarrays=[]
+for i in range(len(arr)):
+    fresh_el=True
+    for j in range(i,len(arr)):
+        print(arr[i:j+1]) # all subarrays possible
+        print(sum(arr[i:j+1]))
+        sum_subarrays.append(sum(arr[i:j+1]))
+
+print(max(sum_subarrays))
