@@ -3,7 +3,6 @@
 import heapq
 
 arr = [5, 2, 8, 1, 9, 3]
-
 # Convert array into a Min Heap
 heapq.heapify(arr)
 
