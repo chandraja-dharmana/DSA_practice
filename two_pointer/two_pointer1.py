@@ -1,4 +1,4 @@
-# this will work if we need onlt length of the longest subarray
+# this will work if we need only length of the longest subarray
 # it won't work if we need the actual subarray
 
 arr = [2, 5, 1, 10, 10]

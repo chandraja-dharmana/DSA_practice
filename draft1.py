@@ -33,6 +33,19 @@
 # print(a1+a2)
 # print(type(a3))
 
+# arr1=[1,2,3,4,5,6,7]
+# len_arr=len(arr1)
+# lps=[0]*len_arr
+
+# def ss():
+#     print(arr1[3])
+#     lps[2]=23
+
+
+# ss() #4  
+# print(lps) #[0, 0, 23, 0, 0, 0, 0]
+# # don't have to pass arr1 as function parameter 
+# # whether it is fixed or modified
 
 
 

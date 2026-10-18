@@ -15,8 +15,16 @@
 # print(a)
 # #output : 123
 
-nums = [1, 2, 3, 4]
+# nums = [1, 2, 3, 4]
 
-result = map(str, nums)
-a="".join(list(result))
-print(a)
+# result = map(str, nums)
+# a="".join(list(result))
+# print(a)
+
+
+str1='ababcabcabababd'
+char_list=[]
+for a in str1:
+    char_list.append(a)
+
+print(char_list)
