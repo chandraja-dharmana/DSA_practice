@@ -34,3 +34,5 @@ for i in range(len_arr):
             print(f"after {a[j+1]}")
     print(a)
 print(a)
+
+
